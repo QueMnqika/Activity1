@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&display=swap');
+
 
 *,
 *::before,
@@ -6,7 +8,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Comfortaa', cursive;
 }
 
 :root{
@@ -26,18 +27,20 @@ main{
     font-size: 9px;
     background-color: var(--primaryColor);
     color: #bbbbbb;
-
 }
 
 .header h2{
     font-size: 16px;
     padding: 20px 10px 0px 30px;
     letter-spacing: 3px;
+    font-family: 'Gothic A1', sans-serif;
 }
 
 .links{
     padding: 8px;
     padding-top: 20px;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 10.5px;
 }
 
 .links>a{
@@ -45,6 +48,11 @@ main{
     padding: 18px;
     color: #bbb;
     letter-spacing: 2px;
+}
+
+main{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 18px;
 }
 
 main>h3{
@@ -195,4 +203,8 @@ h2{
     display: flex;
     justify-content: space-between;
     color: #bbb;
+}
+
+p{
+    color: #5a5a5a;
 }
