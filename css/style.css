@@ -160,7 +160,24 @@ h2{
 }
 
 .footer{
+    padding: 40px 15px 35px 15px;
     background-color: var(--primaryColor);
+    
+}
+
+.f-p{
+    text-align: center;
+    font-size: 11px;
+    margin: 0px 0px 5px 0px;
+    color: #fff;
+}
+
+.f-p p{
+    padding: 5px;
+}
+
+.footer-p{
     display: flex;
-    justify-content: first baseline ;
+    justify-content: space-between;
+    color: #bbb;
 }
