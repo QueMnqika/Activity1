@@ -65,7 +65,7 @@ main>h3{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    font-size: 13px;
+    font-size: 18px;
     padding: 10px 20px 0px 20px;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -88,7 +88,7 @@ main>h3{
 .g1>p{
     text-align: center;
     padding: 5px 15px 0px 15px;
-    font-size: 13px;
+    font-size: 15px;
     word-spacing: 2px;
 }
 
